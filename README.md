@@ -55,7 +55,7 @@ To flash the board with the project application run the following:
 
 ## Unit Tests
 To run an example unit-test for this project run the following:  
-`lager testrun --serial-device /dev/ttyACM0 --hexfile _build/unit-tests/test-suites/test-example/test-example.hex`  
+`lager testrun --serial-device /dev/ttyACM0 --hexfile _build/unit-tests/test-suites/test-example/test-example.hex --test-runner unity`  
 The results of the individual tests will be streamed back to the terminal.  
   
 ## Drone Setup
